@@ -6,8 +6,7 @@ def count_strings(array)
   #array = [1, "hello", [], 5.01, "world", :name, { a: 1 }]
   
   array.count do |element|
-  element.is_a? Float
-  binding.pry
+  element.is_a? String
   end
   
 end
